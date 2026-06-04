@@ -1015,6 +1015,42 @@ section {
     }
 }
 
+/* Resume Section */
+.resume {
+    background-color: #111;
+}
+
+.resume-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.resume-download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: linear-gradient(45deg, #00d4ff, #0099cc);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.85rem 2.2rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    box-shadow: 0 4px 18px rgba(0, 212, 255, 0.35);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.resume-download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba(0, 212, 255, 0.5);
+}
+
+.resume-download-btn i {
+    font-size: 1rem;
+}
+
 /* Contact Section */
 .contact {
     background-color: #0a0a0a;
